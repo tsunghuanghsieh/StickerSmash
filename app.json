@@ -27,10 +27,39 @@
       [
         "expo-splash-screen",
         {
+          "ios": {
+            "backgroundColor": "#ffffff",
+            "image": "./assets/images/splash-icon.png",
+            "resizeMode": "cover",
+            "imageResizeMode": "contain",
+            "iconFilename": "./assets/images/splash-icon.png",
+            "iconImageSize": "200x200",
+            "iconImageResizeMode": "contain",
+            "iconBackgroundColor": "#ffffff",
+            "iconStatusBarStyle": "dark-content",
+            "iconTintColor": "#000000"
+          },
+          "android": {
+            "backgroundColor": "#0c7cff",
+            "image": "./assets/images/splash-android-icon.png",
+            "imageWidth": 150,
+            "imageHeight": 150,
+            "resizeMode": "contain",
+            "iconFilename": "./assets/images/splash-android-icon.png",
+            "iconImageSize": "150x150",
+            "iconImageResizeMode": "contain",
+            "iconBackgroundColor": "#0c7cff",
+            "iconStatusBarColor": "#0c7cff",
+            "iconTintColor": "#ffffff"
+          },
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "image": "./assets/images/splash-icon-dark.png",
+            "backgroundColor": "#000000"
+          }
         }
       ]
     ],
