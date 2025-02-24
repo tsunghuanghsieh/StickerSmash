@@ -27,6 +27,17 @@
       [
         "expo-splash-screen",
         {
+          "default": {
+            "backgroundColor": "#ffffff",
+            "image": "./assets/images/splash-icon.png",
+            "resizeMode": "contain",
+            "iconFilename": "./assets/images/splash-icon.png",
+            "iconImageSize": "200x200",
+            "iconImageResizeMode": "contain",
+            "iconBackgroundColor": "#ffffff",
+            "iconStatusBarStyle": "dark-content",
+            "iconTintColor": "#000000"
+          },
           "ios": {
             "backgroundColor": "#ffffff",
             "image": "./assets/images/splash-icon.png",
@@ -52,6 +63,20 @@
             "iconStatusBarColor": "#0c7cff",
             "iconTintColor": "#ffffff"
           },
+          "web": {
+            "backgroundColor": "#ffffff",
+            "image": "./assets/images/splash-icon.png",
+            "imageWidth": 200,
+            "resizeMode": "contain",
+            "iconFilename": "./assets/images/splash-icon.png",
+            "iconImageSize": "200x200",
+            "iconImageResizeMode": "contain",
+            "iconBackgroundColor": "#ffffff",
+            "iconStatusBarStyle": "dark-content",
+            "iconTintColor": "#000000"
+          },
+          "Comment1": "We can have specify default configuration for all platforms",
+          "Comment2": "and then override it for specific platforms",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
